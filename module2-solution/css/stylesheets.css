@@ -1,0 +1,58 @@
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	text-align:justify;
+}
+
+section {
+	border: solid 1px black;
+	padding: 10px;
+	margin: 10px;
+}
+
+div {
+	margin-left: 100px;
+}
+
+/*Desktop*/
+
+@media (min-width: 992px) and (max-width: 1500px) {
+ section {
+	float: left;
+	width: 25%;
+}
+}
+
+/*Tablet*/
+
+@media (min-width: 991px) {
+ .tercio1{
+	float: left;
+	width: 35%;
+}
+
+ .tercio2{
+	float: left;
+	width: 35%;
+}
+
+ .tercio3{
+	float: left;
+	width: 80%;
+}
+}
+
+/*Mobile*/
+
+@media (max-width: 767px) {
+  body {
+    background-color: lightblue;
+  }
+}
